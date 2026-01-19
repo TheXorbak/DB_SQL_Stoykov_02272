@@ -74,3 +74,12 @@ JOIN stoykov02272.meals AS m ON om.meal_id = m.id
 WHERE o.price BETWEEN 160 AND 898
 ORDER BY order_date
 ```
+### Анализ без индексов 
+![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withoutindex01.jpg?raw=true) ![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withoutindex02.jpg?raw=true) 
+### Анализ после создания индексов
+Индексы ускорили выполнение запроса на 8мс. 
+![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withindex01.jpg?raw=true) ![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withindex02.jpg?raw=true)
+### Выводы
+- Индексы ускоряют выполнение запросов с фильтрацией и JOIN
+- Оптимизация особенно эффективна для аналитических запросов
+- При больших объёмах данных индексация критически важна
