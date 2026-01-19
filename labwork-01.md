@@ -2,7 +2,7 @@
 ### Цель:
 Спроектировать структуру базы данных, соответствующую бизнес-требованиям и нормализованную до 3NF.
 ### Результат:
-![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/erdiagram.jpg?raw=true)
+![image](/images/erdiagram.jpg)
 ### Нормальные формы
 - **1НФ (Первая нормальная форма)**
 
