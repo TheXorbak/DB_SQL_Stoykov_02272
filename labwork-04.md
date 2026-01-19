@@ -75,10 +75,10 @@ WHERE o.price BETWEEN 160 AND 898
 ORDER BY order_date
 ```
 ### Анализ без индексов 
-![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withoutindex01.jpg?raw=true) ![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withoutindex02.jpg?raw=true) 
+![image](/images/withoutindex01.jpg) ![image](/images/withoutindex02.jpg) 
 ### Анализ после создания индексов
 Индексы ускорили выполнение запроса на 8мс. 
-![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withindex01.jpg?raw=true) ![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/withindex02.jpg?raw=true)
+![image](/images/withindex01.jpg) ![image](/images/withindex02.jpg)
 ### Выводы
 - Индексы ускоряют выполнение запросов с фильтрацией и JOIN
 - Оптимизация особенно эффективна для аналитических запросов
