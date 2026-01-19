@@ -3,10 +3,9 @@
 Практическое развертывание базы данных и работа с SQL.
 ### Результат:
 
-![image alt]()
+![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/myschema.png?raw=true)
 
 ### Содержательный SELECT запрос:
-
 ```sql
 SELECT 
   o.id AS order_id,
