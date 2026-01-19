@@ -2,7 +2,7 @@
 ### Цель:
 Практическое развертывание базы данных и работа с SQL.
 ### Результат:
-![image alt](https://github.com/TheXorbak/DB_SQL_Stoykov_02272/blob/main/myschema.png?raw=true)
+![image](/images/myschema.png)
 
 К сожалению, CREATE запросов у меня не осталось, однако эта работа проверялась Кириллом Владимировичем
 
