@@ -84,3 +84,28 @@ ON stoykov02272.staff
 FOR EACH ROW
 EXECUTE FUNCTION stoykov02272.audit_staff_changes();
 ```
+### Проверка функций
+**Удаление таблицы table:**
+```sql
+DELETE FROM stoykov02272.table
+WHERE id = 10;
+```
+**Изменение таблицы staff:**
+```sql
+INSERT INTO stoykov02272.staff (id, name, post_id)
+VALUES (13, 'Ivanov Petr Sergeevich', 3)
+```
+```sql
+UPDATE stoykov02272.staff
+SET post_id = 2
+WHERE id = 13
+```
+```sql
+DELETE FROM stoykov02272.staff
+WHERE id = 13
+```
+**Результат запросов:**
+```sql
+SELECT * FROM stoykov02272.audit_log
+```
+![image](/images/mytestaudit.jpg)
